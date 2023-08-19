@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFURQAN MASJID</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="heading">ALFURQAN MASJID</h1>
+        <h2 class="moto">الموقع الرسمي لمسجد الفرقان ممباسا - كينيا</h2>
+    </div>
+    <div></div>
+    <div class="navbar">
+        <a href="home">HOME</a>
+        <a href="video-dar">VIDEO DARSA</a>
+        <a href="audio-dar">AUDIO DARSA</a>
+        <a href="about">ABOUT</a>
+    </div>
+    <div></div>
+    <div id="home" class="home">
+        <h1 class="welc">WELCOME TO ALFURQAN MOSQUE:</h1>
+        <p class="left-of-video">Welcome to Alfurqan Masjid. We are located on Abdel Nasser Rd, Mombasa. We hope you will join us in our beautiful mosque to praise and worship our creator, Inshaallah!</p>
+    </div>
+    <div id="video-dar" class="video-dar">
+        <div class="navbar">
+            <h3>VIDEO DARSA</h3>
+        </div>
+        <p class="dars">Below you can find a video of one of our Darsa from our <a class="yt" href="youtube.com">Youtube Channel</a>. We host Darsa every Sunday from 1:00 pm to 2:00 pm</p>
+        <div class="iframe-container">
+            <iframe width="70%" height="155" src="https://www.youtube.com/embed/zIw5sJlnjcM" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="audio-dar" class="audio-dar">
+        <div class="navbar">
+            <h3>AUDIO DARSA</h3>
+        </div>
+        <p class="dars">Take a listen to our audio recording of one of our darsa. We host Darsa every Sunday from 1:00pm to 2:00pm</p>
+           <div class="audio-container"> 
+            <audio width="300" height="215" controls>
+                <source src="your-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+           </div>
+    </div>
+    
+    <div id="about" class="about">
+        <div class="navbar">
+            <h3>ABOUT US</h3>
+        </div>
+        <p class="dars">We are located on Abdel Nasser Rd, Mombasa</p>
+        <p class="dars">We have 2 sections of the mosque: One for men and one for women so everyone is welcome</p>
+        <p class="dars">We were founded in 1990 and we finished constructing our mosque in 1995</p>
+        <p class="dars">Our dream is to give everyone a place to efficiently worship their creator and have a clear path to Jannah, Inshaallah!</p>
+    </div>
+    <div class="seperation"></div>
+    <div class="footer">
+        <p class="foot">Contact: +25477777777</p>
+        <p class="foot">Email: alfurqan@gmail.com</p>
+        <p class="foot">Location: Abdel Nasser Rd, Mombasa</p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.8444039119836!2d39.67134417377149!3d-4.052140044902191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012e744f5be27%3A0x8ff59e4c11b00160!2sAbdel%20Nasser%20Rd%2C%20Mombasa!5e0!3m2!1sen!2ske!4v1692361528250!5m2!1sen!2ske" width="500" height="70" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
